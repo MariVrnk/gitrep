@@ -63,4 +63,8 @@ public class Calculating{
     public double ln(double a){
         return Math.log(a);
     }
+
+    public double log10(double a){
+        return Math.log10(a);
+    }
 }
