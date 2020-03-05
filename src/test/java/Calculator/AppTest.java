@@ -51,25 +51,5 @@ public class AppTest {
     @Test
     public void expTest() throws Exception {
         assertEquals(1, calc.exponent(0), mistake);
-    }
-
-    @Test
-    public void absTest() throws Exception {
-        assertEquals(1, calc.abs(-1), mistake);
-    }
-
-    @Test
-    public void lnTest() throws Exception {
-        assertEquals(0, calc.ln(1), mistake);
-    }
-
-    @Test
-    public void log10Test() throws Exception {
-        assertEquals(2, calc.log10(100), mistake);
-    }
-
-    @Test
-    public void ceilTest() throws Exception {
-        assertEquals(5, calc.ceil(4.8), mistake);
-    }
+    }   
 }
