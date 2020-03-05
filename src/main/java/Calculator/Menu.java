@@ -44,15 +44,6 @@ public class Menu{
                 case "abs":
                 System.out.println(calc.abs(a));
                 break;
-                case "ln":
-                System.out.println(calc.ln(a));
-                break;
-                case "log10":
-                System.out.println(calc.log10(a));
-                break;
-                case "ceil":
-                System.out.println(calc.ceil(a));
-                break;
             }
         }
     }
