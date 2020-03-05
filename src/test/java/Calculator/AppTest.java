@@ -62,4 +62,14 @@ public class AppTest {
     public void lnTest() throws Exception {
         assertEquals(0, calc.ln(1), mistake);
     }
+
+    @Test
+    public void log10Test() throws Exception {
+        assertEquals(2, calc.log10(100), mistake);
+    }
+
+    @Test
+    public void ceilTest() throws Exception {
+        assertEquals(5, calc.ceil(4.8), mistake);
+    }
 }
