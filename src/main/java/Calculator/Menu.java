@@ -44,6 +44,9 @@ public class Menu{
                 case "abs":
                 System.out.println(calc.abs(a));
                 break;
+                case "ln":
+                System.out.println(calc.ln(a));
+                break;
             }
         }
     }
