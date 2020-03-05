@@ -55,4 +55,12 @@ public class Calculating{
     public double exponent(double a){
         return Math.exp(a);
     }
+
+    public double abs(double a){
+        return Math.abs(a);
+    }
+
+    public double ln(double a){
+        return Math.log(a);
+    }
 }
