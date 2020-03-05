@@ -55,4 +55,8 @@ public class Calculating{
     public double exponent(double a){
         return Math.exp(a);
     }
+
+    public double abs(double a){
+        return Math.abs(a);
+    }
 }

@@ -41,6 +41,9 @@ public class Menu{
                 case "exp":
                 System.out.println(calc.exponent(a));
                 break;
+                case "abs":
+                System.out.println(calc.abs(a));
+                break;
             }
         }
     }
