@@ -51,5 +51,5 @@ public class AppTest {
     @Test
     public void expTest() throws Exception {
         assertEquals(1, calc.exponent(0), mistake);
-    }
+    }   
 }
